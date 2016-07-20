@@ -1,0 +1,21 @@
+/*Structure Styling*/
+header {
+
+}
+
+body {
+
+}
+
+footer {
+
+}
+
+.wrapper {
+  width: 600px;
+}
+
+/*special font-face styling*/
+.questions {
+  font-style: oblique;
+}

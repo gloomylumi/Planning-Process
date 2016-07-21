@@ -1,18 +1,51 @@
-/*Structure Styling*/
+html {
+  font-size: 62.5% ;
+}
+
+/*Header Styling*/
 header {
-
+  height: 120px;
+  background-image: url(images/burgundy-leather.png);
+  background-repeat: repeat;
+  border-bottom: .5rem;
+  border-color: #a34d3a; /*clay*/
 }
 
+header h1 {
+  color: #f2a46a; /*khaki*/
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+header h2 {
+  color: #a7a851; /*sage green*/
+  font-size: 2.8rem;
+  text-align: center;
+}
+/*end header styling*/
+
+/*Body styling*/
 body {
-
+  background-color: #f2a46a; /*khaki*/
+  color: #453933; /*warm dark gray*/
+  font-size: 1.6rem;
 }
+
+h1 {
+  color: #520f00; /*maroon*/
+  font-size: 2rem;
+}
+/*end body styling*/
 
 footer {
-
+  height: 100px;
+  background-image: url(images/burgundy-leather.png);
+  background-repeat: repeat;
 }
 
 .wrapper {
-  width: 600px;
+  width: 640px;
+  margin: auto;
 }
 
 /*special font-face styling*/

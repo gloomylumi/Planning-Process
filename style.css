@@ -22,8 +22,8 @@ header h2 {
 }
 /*end header styling*/
 
-/*Body styling*/
-body {
+/*main content styling*/
+main {
   background-color: #fabd94; /*khaki*/
   color: #453933; /*warm dark gray*/
   font-size: 1.6rem;

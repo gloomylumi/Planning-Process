@@ -5,8 +5,10 @@ html {
 /*Header Styling*/
 header {
   height: 120px;
-  border-bottom: .5rem;
+  border-bottom: 4px;
   border-color: #a34d3a; /*clay*/
+  margin: 0;
+  padding: 0;
 }
 
 header h1 {
@@ -50,8 +52,6 @@ footer {
 .leather {
   background-image: url(images/burgundy-leather.png);
   background-repeat: repeat;
-  margin: 0;
-  padding: 0;
 }
 
 /*special font-face styling*/

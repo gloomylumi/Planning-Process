@@ -50,6 +50,8 @@ footer {
 .leather {
   background-image: url(images/burgundy-leather.png);
   background-repeat: repeat;
+  margin: 0;
+  padding: 0;
 }
 
 /*special font-face styling*/

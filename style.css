@@ -5,14 +5,12 @@ html {
 /*Header Styling*/
 header {
   height: 120px;
-  background-image: url(images/burgundy-leather.png);
-  background-repeat: repeat;
   border-bottom: .5rem;
   border-color: #a34d3a; /*clay*/
 }
 
 header h1 {
-  color: #f2a46a; /*khaki*/
+  color: #fabd94; /*khaki*/
   font-size: 3.2rem;
   text-align: center;
 }
@@ -26,7 +24,7 @@ header h2 {
 
 /*Body styling*/
 body {
-  background-color: #f2a46a; /*khaki*/
+  background-color: #fabd94; /*khaki*/
   color: #453933; /*warm dark gray*/
   font-size: 1.6rem;
 }
@@ -43,9 +41,15 @@ footer {
   background-repeat: repeat;
 }
 
+/*common container classes*/
 .wrapper {
   width: 640px;
   margin: auto;
+}
+
+.leather {
+  background-image: url(images/burgundy-leather.png);
+  background-repeat: repeat;
 }
 
 /*special font-face styling*/

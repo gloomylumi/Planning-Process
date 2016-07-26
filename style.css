@@ -1,128 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Maitree:400,500,700|Proza+Libre:600) ;
+
+/*   Common Styling   */
 html {
   font-size: 62.5% ;
 }
 
-/*   Font families   */
-@import url(https://fonts.googleapis.com/css?family=Amaranth:400,400i,700|Philosopher:700) ;
-
 header h2, main h1, main h2 {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Proza Libre', sans-serif;
 }
 
 main p, footer p {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Maitree', serif;
 }
+
+footer, main h2 {
+  font-size: 1.8rem;
+}
+
+h1, header, header h2, footer {
+  text-align: center;
+}
+
+header, footer {
+    background-color: #592326; /*rose*/
+    color: #D1A38D; /*taupe*/
+}
+
+header h1, .wrapper, .fivehundredpx {
+  margin: auto;
+}
+
+header h2, main h2, main p, .bookendelement, #h1bookendelement {
+  margin: 0;
+}
+
+header h2, .bookendelement, .questions {
+  padding: 0;
+}
+
+header h1, main h1, #h1bookendelement {
+  padding: 6px;
+}
+/*   End Common Styling   */
 
 /*   Header Styling   */
 header {
   height: 160px;
-  border-bottom: 4px;
-  border-color: #a34d3a; /*clay*/
-  background-image: url(images/burgundy-leather.png);
-  background-repeat: repeat;
-}
-
-header h1 {
-  text-align: center;
-  margin: auto;
-  padding: 6px;
-
 }
 
 header h2 {
-  color: #a8a267; /*sage green*/
   font-size: 2.8rem;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  text-shadow: 0px -3px 0px #520005,
-               -3px 0px 0px #520005,
-               -2px -2px 0px #520005,
-               -2px -2px 4px #520005,
-               -3px 1px 1px #520005,
-               1px 1px 1px #520005;
-
-
 }
 /*   end header styling   */
 
 /*   main content styling   */
 main {
-  background-color: #edbda7; /*khaki*/
-  color: #453933; /*warm dark gray*/
-  font-size: 1.6rem;
+  background-color: #D1A38D; /*taupe*/
+  color: #3B2927; /*dark brown*/
 }
 
 main h1 {
-  background-color: #520f00; /*maroon*/
-  color: #edbda7; /*khaki*/
+  background-color: #470F13; /*maroon*/
+  color: #FFD1BB; /*cream*/
   font-size: 2.4rem;
-  text-align: center;
-  padding: 6px;
-  text-shadow: 0px -2px 0px #300700,
-               -2px 0px 0px #300700,
-               -2px -2px 0px #300700,
-               -2px -2px 2px #300700,
-               -2px 1px 1px #300700,
-               1px 1px 1px #300700;
 }
 
 main h2 {
-  font-size: 2rem;
   font-weight: bold;
-  text-align: center;
-  color: #520f00; /*maroon*/
+  color: #470F13; /*maroon*/
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-indent: 24px;
 }
 
+main p {
+  font-size: 1.6rem;
+  padding: 3px;
+}
 /*   end main styling   */
 
 footer {
   height: 100px;
-  background-image: url(images/burgundy-leather.png);
-  background-repeat: repeat;
-  margin: 0;
-  padding: 0;
-}
-
-footer p {
-  color: #a8a267; /*sage green*/
-  font-size: 1.8rem;
-  text-align: center;
 }
 
 /*   common container classes   */
 .wrapper {
   width: 640px;
-  margin: auto;
 }
 
-
-.leather {
-  background-image: url(images/burgundy-leather.png);
-  background-repeat: repeat;
-  margin: 0;
-  padding: 0;
+.fivehundredpx {
+  width: 500px;
 }
 /*   end common container classes   */
 
 /*   special font-face styling   */
 .questions {
-  font-style: oblique;
-  padding: 0;
+  font-weight: 500;
 }
 
-.fivehundredpx {
-  width: 500px;
-  margin: auto;
-}
-
-/*   Top and bottom element padding removal   */
-.bookendelement {
-  margin: 0;
-  padding: 0;
-}
-
-#h1bookendelement {
-  margin: 0;
-  padding: 6;
-}
+a:link {color: #470f13; font-weight: 700; text-decoration: none;}
+a:visited {color: #592326; font-weight:700; text-decoration:none;}
+a:hover {color: #592326; font-weight: 700; text-decoration: underline;}
+a:active {color: #3b2927; text-decoration: underline;}

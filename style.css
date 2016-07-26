@@ -2,59 +2,127 @@ html {
   font-size: 62.5% ;
 }
 
-/*Header Styling*/
+/*   Font families   */
+@import 'https://fonts.googleapis.com/css?family=Amaranth:400,400i,700|Philosopher:700';
+
+header h2, main h1, main h2 {
+  font-family: 'Philosopher', sans-serif;
+}
+
+main p, footer p {
+  font-family: 'Amaranth', sans-serif;
+}
+
+/*   Header Styling   */
 header {
-  height: 120px;
+  height: 160px;
   border-bottom: 4px;
   border-color: #a34d3a; /*clay*/
-  margin: 0;
-  padding: 0;
+  background-image: url(images/burgundy-leather.png);
+  background-repeat: repeat;
 }
 
 header h1 {
-  color: #fabd94; /*khaki*/
-  font-size: 3.2rem;
   text-align: center;
+  margin: auto;
+  padding: 6px;
+
 }
 
 header h2 {
-  color: #a7a851; /*sage green*/
+  color: #a8a267; /*sage green*/
   font-size: 2.8rem;
   text-align: center;
-}
-/*end header styling*/
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px -3px 0px #520005,
+               -3px 0px 0px #520005,
+               -2px -2px 0px #520005,
+               -2px -2px 4px #520005,
+               -3px 1px 1px #520005,
+               1px 1px 1px #520005;
 
-/*main content styling*/
+
+}
+/*   end header styling   */
+
+/*   main content styling   */
 main {
-  background-color: #fabd94; /*khaki*/
+  background-color: #edbda7; /*khaki*/
   color: #453933; /*warm dark gray*/
   font-size: 1.6rem;
 }
 
-h1 {
-  color: #520f00; /*maroon*/
-  font-size: 2rem;
+main h1 {
+  background-color: #520f00; /*maroon*/
+  color: #edbda7; /*khaki*/
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 6px;
+  text-shadow: 0px -2px 0px #300700,
+               -2px 0px 0px #300700,
+               -2px -2px 0px #300700,
+               -2px -2px 2px #300700,
+               -2px 1px 1px #300700,
+               1px 1px 1px #300700;
 }
-/*end body styling*/
+
+main h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #520f00; /*maroon*/
+}
+
+/*   end main styling   */
 
 footer {
   height: 100px;
   background-image: url(images/burgundy-leather.png);
   background-repeat: repeat;
+  margin: 0;
+  padding: 0;
 }
 
-/*common container classes*/
+footer p {
+  color: #a8a267; /*sage green*/
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/*   common container classes   */
 .wrapper {
   width: 640px;
   margin: auto;
 }
 
+
 .leather {
   background-image: url(images/burgundy-leather.png);
   background-repeat: repeat;
+  margin: 0;
+  padding: 0;
 }
+/*   end common container classes   */
 
-/*special font-face styling*/
+/*   special font-face styling   */
 .questions {
   font-style: oblique;
+  padding: 0;
+}
+
+.fivehundredpx {
+  width: 500px;
+  margin: auto;
+}
+
+/*   Top and bottom element padding removal   */
+.bookendelement {
+  margin: 0;
+  padding: 0;
+}
+
+#h1bookendelement {
+  margin: 0;
+  padding: 6;
 }

@@ -3,7 +3,7 @@ html {
 }
 
 /*   Font families   */
-@import 'https://fonts.googleapis.com/css?family=Amaranth:400,400i,700|Philosopher:700';
+@import url(https://fonts.googleapis.com/css?family=Amaranth:400,400i,700|Philosopher:700) ;
 
 header h2, main h1, main h2 {
   font-family: 'Philosopher', sans-serif;

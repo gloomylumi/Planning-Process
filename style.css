@@ -1,106 +1,125 @@
-@import url(https://fonts.googleapis.com/css?family=Maitree:400,500,700|Proza+Libre:600) ;
+@import url(https://fonts.googleapis.com/css?family=Maitree:400,500,700|Proza+Libre:600);
 
 /*   Common Styling   */
+
 html {
-  font-size: 62.5% ;
+    font-size: 62.5%;
 }
-
 header h2, main h1, main h2 {
-  font-family: 'Proza Libre', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
 }
-
 main p, footer p {
-  font-family: 'Maitree', serif;
+    font-family: 'Maitree', serif;
 }
-
 footer, main h2 {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }
-
 h1, header, header h2, footer {
-  text-align: center;
+    text-align: center;
 }
-
 header, footer {
-    background-color: #592326; /*rose*/
-    color: #D1A38D; /*taupe*/
+    background-color: #592326;
+    /*rose*/
+    color: #D1A38D;
+    /*taupe*/
 }
-
 header h1, .wrapper, .fivehundredpx {
-  margin: auto;
+    margin: auto;
 }
-
 header h2, main h2, main p, .bookendelement, #h1bookendelement {
-  margin: 0;
+    margin: 0;
 }
-
 header h2, .bookendelement, .questions {
-  padding: 0;
+    padding: 0;
+}
+header h1, main h1, #h1bookendelement {
+    padding: 6px;
 }
 
-header h1, main h1, #h1bookendelement {
-  padding: 6px;
-}
 /*   End Common Styling   */
 
+
 /*   Header Styling   */
+
 header {
-  height: 160px;
+    height: 160px;
+}
+header h2 {
+    font-size: 2.8rem;
 }
 
-header h2 {
-  font-size: 2.8rem;
-}
 /*   end header styling   */
 
+
 /*   main content styling   */
+
 main {
-  background-color: #D1A38D; /*taupe*/
-  color: #3B2927; /*dark brown*/
+    background-color: #D1A38D;
+    /*taupe*/
+    color: #3B2927;
+    /*dark brown*/
 }
-
 main h1 {
-  background-color: #470F13; /*maroon*/
-  color: #FFD1BB; /*cream*/
-  font-size: 2.4rem;
+    background-color: #470F13;
+    /*maroon*/
+    color: #FFD1BB;
+    /*cream*/
+    font-size: 2.4rem;
 }
-
 main h2 {
-  font-weight: bold;
-  color: #470F13; /*maroon*/
-  padding-top: 10px;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  text-indent: 24px;
+    font-weight: bold;
+    color: #470F13;
+    /*maroon*/
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-indent: 24px;
+}
+main p {
+    font-size: 1.6rem;
+    padding: 3px;
 }
 
-main p {
-  font-size: 1.6rem;
-  padding: 3px;
-}
 /*   end main styling   */
 
 footer {
-  height: 100px;
+    height: 100px;
 }
 
 /*   common container classes   */
+
 .wrapper {
-  width: 640px;
+    width: 640px;
+}
+.fivehundredpx {
+    width: 500px;
 }
 
-.fivehundredpx {
-  width: 500px;
-}
 /*   end common container classes   */
 
-/*   special font-face styling   */
-.questions {
-  font-weight: 500;
-}
 
-a:link {color: #470f13; font-weight: 700; text-decoration: none;}
-a:visited {color: #592326; font-weight:700; text-decoration:none;}
-a:hover {color: #592326; font-weight: 700; text-decoration: underline;}
-a:active {color: #3b2927; text-decoration: underline;}
+/*   special font-face styling   */
+
+.questions {
+    font-weight: 500;
+}
+a:link {
+    color: #470f13;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:visited {
+    color: #592326;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover {
+    color: #592326;
+    font-weight: 700;
+    text-decoration: underline;
+}
+a:active {
+    color: #3b2927;
+    text-decoration: underline;
+}
